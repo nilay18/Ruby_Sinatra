@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en"> 
+  <head>
+    <title>
+    <%= @title || "SCU"%>
+    </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/style.scss">
+  </head>
+  <body>
+    <header>
+      <h1> Student Information System </h1>
+      <%=erb :navigationbar2%>
+      <%= yield%>
+    </header>
+  </body>
+</html>
